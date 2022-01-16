@@ -1,11 +1,54 @@
+$primary:#58A9A5;
+$secondary: #404242;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1920px
+);
+$font-sizes: (
+  1: 12rem,
+  2: 10rem,
+  3: 3.5rem,
+  4: 3rem,
+  5: 2.5rem,
+  6: 2rem,
+);
+
 @import "~bootstrap/scss/bootstrap";
 
 @import "fonts";
 @import "variables";
+html {
+  font-size: 10px;
+}
 
 body {
   background: #fff;
+  font-family: $font-family-poppins;
 }
 
-$primary: #0074d9;
-$danger: #ff4136;
+.container-fluid{
+width: 1627px;
+}
+
+.nav-pills .nav-link.active {
+  background-color: transparent;
+  color: $primary;
+}
+
+
+.nav-pills .nav-link.active::after {
+  content: '';
+  background-color: #FEC62D;
+  position: absolute;
+  width: 48px;
+  height: 6px;
+  top: 30px;
+  right: 25px;
+  border-radius: 21px;
+}
+
+
