@@ -9,13 +9,17 @@ $container-max-widths: (
   xxl: 1920px
 );
 $font-sizes: (
-  1: 12rem,
-  2: 10rem,
+  1: 7rem,
+  2: 5rem,
   3: 3.5rem,
   4: 3rem,
   5: 2.5rem,
   6: 2rem,
 );
+
+$font-weight-bolder: 800;
+
+$border-radius: 1.5rem;
 
 @import "~bootstrap/scss/bootstrap";
 
@@ -30,13 +34,19 @@ body {
   font-family: $font-family-poppins;
 }
 
-.container-fluid{
-width: 1627px;
+.main-wrapper{
+padding: 0 14.6rem;
+margin-top: 8rem;
+}
+
+.nav-content-wrapper {
+  width: 65.5rem;
 }
 
 .nav-pills .nav-link.active {
   background-color: transparent;
   color: $primary;
+  font-weight: bold;
 }
 
 
@@ -46,9 +56,13 @@ width: 1627px;
   position: absolute;
   width: 48px;
   height: 6px;
-  top: 30px;
-  right: 25px;
+  top: 38px;
+  left: calc(50% - 24px);
   border-radius: 21px;
 }
 
-
+.btn-sign-up {
+  width: 27.1rem;
+  height: 8rem;
+  font-weight: 500;
+}
