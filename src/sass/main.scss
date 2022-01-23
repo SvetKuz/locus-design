@@ -1,5 +1,9 @@
 $primary:#58A9A5;
 $secondary: #404242;
+$info: #CCF0E6;
+$dark: #486958;
+
+
 
 $container-max-widths: (
   sm: 540px,
@@ -17,11 +21,40 @@ $font-sizes: (
   6: 2rem,
 );
 
+$display-font-sizes: (
+  1: 7rem,
+  2: 4.5rem,
+  3: 4rem,
+  4: 3.5rem,
+  5: 3rem,
+  6: 2.5rem
+);
+
+$font-weight-medium: 500;
+// @import "bootstrap/scss/utilities";
+// $utilities: (
+//     "font-weight": (
+//         property: font-weight,
+//         class: fw,
+//         values: (
+//           light: $font-weight-light,
+//           lighter: $font-weight-lighter,
+//           normal: $font-weight-normal,
+//           medium: $font-weight-medium,
+//           bold: $font-weight-bold,
+//           bolder: $font-weight-bolder
+//         )
+//     ),
+// );
+
+$headings-line-height: 1.5;
 $font-weight-bolder: 800;
+
 
 $border-radius: 1.5rem;
 
 @import "~bootstrap/scss/bootstrap";
+
 
 @import "fonts";
 @import "variables";
@@ -65,4 +98,16 @@ margin-top: 8rem;
   width: 27.1rem;
   height: 8rem;
   font-weight: 500;
+}
+
+.video {
+  // background-image: url('./images/Rectangle.svg');
+}
+
+// .furniture-items {
+//   background-image: url('./images/Rectangle.svg');
+// }
+.video-text {
+  width: 549px;
+  height: 350px;
 }
