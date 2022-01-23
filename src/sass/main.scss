@@ -30,31 +30,33 @@ $display-font-sizes: (
   6: 2.5rem
 );
 
-$font-weight-medium: 500;
-// @import "bootstrap/scss/utilities";
-// $utilities: (
-//     "font-weight": (
-//         property: font-weight,
-//         class: fw,
-//         values: (
-//           light: $font-weight-light,
-//           lighter: $font-weight-lighter,
-//           normal: $font-weight-normal,
-//           medium: $font-weight-medium,
-//           bold: $font-weight-bold,
-//           bolder: $font-weight-bolder
-//         )
-//     ),
-// );
-
 $headings-line-height: 1.5;
 $font-weight-bolder: 800;
 
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/utilities";
+
+$font-weight-medium: 500;
+
+$utilities: (
+  "font-weight": (
+    property: font-weight,
+    class: fw,
+    values: (
+      light: $font-weight-light,
+      lighter: $font-weight-lighter,
+      normal: $font-weight-normal,
+      medium: $font-weight-medium,
+      bold: $font-weight-bold,
+      bolder: $font-weight-bolder
+    )
+  ),
+);
 
 $border-radius: 1.5rem;
 
 @import "~bootstrap/scss/bootstrap";
-
 
 @import "fonts";
 @import "variables";
