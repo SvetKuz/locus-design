@@ -3,7 +3,7 @@ $secondary: #404242;
 $info: #CCF0E6;
 $dark: #486958;
 
-
+// fix colors
 
 $container-max-widths: (
   sm: 540px,
@@ -14,7 +14,7 @@ $container-max-widths: (
 );
 $font-sizes: (
   1: 7rem,
-  2: 5rem,
+  2: 4rem,
   3: 3.5rem,
   4: 3rem,
   5: 2.5rem,
@@ -23,7 +23,7 @@ $font-sizes: (
 
 $display-font-sizes: (
   1: 7rem,
-  2: 4.5rem,
+  2: 6rem,
   3: 4rem,
   4: 3.5rem,
   5: 3rem,
@@ -112,4 +112,9 @@ margin-top: 8rem;
 .video-text {
   width: 549px;
   height: 350px;
+}
+
+.divider {
+  width: 13.5rem;
+  border: 5px solid $primary;
 }
