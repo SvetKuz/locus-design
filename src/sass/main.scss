@@ -38,6 +38,7 @@ $font-weight-bolder: 800;
 @import "bootstrap/scss/utilities";
 
 $font-weight-medium: 500;
+$font-weight-large: 600;
 
 $utilities: (
   "font-weight": (
@@ -48,6 +49,7 @@ $utilities: (
       lighter: $font-weight-lighter,
       normal: $font-weight-normal,
       medium: $font-weight-medium,
+      large: $font-weight-large,
       bold: $font-weight-bold,
       bolder: $font-weight-bolder
     )
@@ -101,6 +103,7 @@ margin-top: 8rem;
   height: 8rem;
   font-weight: 500;
 }
+// change name in both buttons
 
 .video {
   // background-image: url('./images/Rectangle.svg');
