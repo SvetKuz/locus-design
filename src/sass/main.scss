@@ -1,10 +1,10 @@
 $primary:#58A9A5;
 $secondary: #404242;
-$info: #CCF0E6;
+$light: #CCF0E6;
 $dark: #486958;
 
 // fix colors
-// do we need to install a spaces and use it margin and paddings?
+// do we need to install a spacings and use it margin and paddings?
 //  reset all m &p?
 
 $container-max-widths: (
@@ -101,6 +101,10 @@ margin-top: 8rem;
   border-radius: 21px;
 }
 
+.letter-spacing {
+  letter-spacing: 0.8rem;
+}
+
 .btn-send {
   width: 27.1rem;
   height: 8rem;
@@ -122,6 +126,7 @@ margin-top: 8rem;
 .divider {
   width: 13.5rem;
   border: 5px solid $primary;
+  margin:0 0 1.5rem;
 }
 
 .inspiration-wrapper {
@@ -143,3 +148,45 @@ margin-top: 8rem;
 .how-it-works-wrapper {
   margin: 13.6rem 0 2rem;
 }
+
+.mission-wrapper {
+  max-width: 70.8rem;
+  margin-left: 14.2rem;
+}
+
+.mission-wrapper h3 {
+  max-width: 48.7rem;
+  margin-bottom: 5rem;
+}
+
+.project-wrapper {
+  margin: 12rem 0 2rem;
+}
+
+.cards-wrapper {
+  margin: 7.9rem 0 25rem;
+}
+
+.project-wrapper + .row {
+  margin-bottom: 5rem;
+}
+
+figure :not(:last-child) {
+  margin: 0 9rem 0 0;
+}
+
+.numbers-wrapper {
+  margin: 6.2rem 0 24rem;
+}
+
+.numbers-wrapper .bg-light {
+  width: 99.7rem;
+}
+// .project-card {
+//   width: 45rem;
+//   height: 16.6rem;
+// }
+
+// .card-img-top, .card-img-bottom {
+
+// }
