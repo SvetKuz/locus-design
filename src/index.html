@@ -8,28 +8,35 @@
 </head>
 
 <body>
-  <div class="container-xxl">
-    <div class="container main-wrapper">
-      <nav class="navbar navbar-light navbar-expand-lg">
-        <div class="container-fluid">
-          <a class="navbar-brand text-primary fs-3 fw-bolder flex-grow-0 d-flex" href="#">
-            <img src="./images/Group 1.svg" alt="" width="37" height="44"
-              class="d-inline-block align-text-center align-self-baseline me-3">
+  <!-- <div class="container-xxl g-0"> -->
+  <div class="container-fluid main-wrapper mt-3 mt-xl-13">
+    <nav class="navbar navbar-light navbar-expand-md">
+      <div class="container-fluid g-0">
+        <div class="col" style="max-width: 16.1rem;">
+          <a class="navbar-brand text-primary fw-bolder fs-3 flex-grow-0 d-flex" href="#">
+            <img src="./images/Group 1.svg" alt="" class="d-inline-block align-text-center me-3">
             Locus</a>
-          <!-- fix change all names of picture, add multi pic -->
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <!-- fix resposibility -->
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse flex-grow-1" id="navbarSupportedContent">
-            <div class="container nav-content-wrapper d-flex p-0">
-              <ul class="nav nav-pills justify-content-between flex-grow-1" id="pills-tab" role="tablist">
+        </div>
+        <div class="flex-grow-1 d-flex g-0" style="max-width:31rem"></div>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <!-- <div class="row collapse navbar-collapse flex-grow-1" id="navbarSupportedContent"> -->
+        <div class="row justify-content-end collapse navbar-collapse flex-grow-1 g-0" id="navbarSupportedContent">
+          <!-- <div class="col flex-nowrap"> -->
+          <div class="d-flex justify-content-between nav-content-wrapper w-100">
+            <!-- <div class="container nav-content-wrapper d-flex g-0"> -->
+            <div class="d-flex flex-grow-1">
+              <ul class="nav nav-pills justify-content-between flex-grow-1 flex-column flex-md-row align-items-center" id="pills-tab"
+                role="tablist">
                 <li class="nav-item" role="presentation">
                   <a href="#" class="nav-link active link-secondary fs-5 position-relative" id="pills-home-tab"
-                    data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab"
-                    aria-controls="pills-home" aria-selected="true">Home</a>
+                    data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                    aria-selected="true">Home</a>
                 </li>
                 <li class="nav-item" role="presentation">
                   <a href="#" class="nav-link link-secondary fs-5 position-relative" id="pills-contact-tab"
@@ -48,12 +55,14 @@
                 </li>
               </ul>
             </div>
-            <div class="row flex-grow-0">
-              <button class="btn btn-primary text-white fs-5 rounded-1 btn-send" type="submit">Sign up</button>
+            <div class="flex-grow-1 d-flex g-0" style="max-width:22rem"></div>
+            <!-- <div class="col flex-grow-0"> -->
+            <div class="d-flex justify-content-center justify-content-lg-end flex-grow-1" style="max-width: 27.1rem">
+              <button class="btn btn-primary text-white fs-5 rounded-1 btn-send w-100" type="submit">Sign up</button>
             </div>
           </div>
         </div>
-      </nav>
+    </nav>
       <div class="row inspiration-wrapper justify-content-between mx-0">
         <div class="col inspiration-text-wrapper p-0 ">
           <div class="row">
@@ -67,10 +76,10 @@
             <button class="btn btn-primary text-white fs-5 rounded-top rounded-end btn-send" type="submit">Let’s go</button>
           </div>
         </div>
-        <div class="col">
+        <!-- <div class="col">
           <img src="./images/image1.svg" alt="" width="723" height="723"
             class="d-inline-block align-text-center align-self-baseline furniture-items">
-        </div>
+        </div> -->
       </div>
       <div class="row text-center how-it-works-wrapper">
         <h2 class="display-1 fw-bolder">How it works</h2>
@@ -78,7 +87,7 @@
       <div class="row text-center">
         <p class="fs-4">Spice up your space even simpler than you think</p>
       </div>
-      <div class="row video-wrapper flex-nowrap">
+      <!-- <div class="row video-wrapper flex-nowrap">
         <img src="./images/Rectangle 10-1.svg" alt="" width="1063" height="350"
           class="d-inline-block align-text-center align-self-baseline p-0 w-auto">
         <div class="col bg-light video-text-wrapper p-0">
@@ -91,8 +100,8 @@
             <a href="#" class="fs-6 fw-bold text-dark text-decoration-none letter-spacing">SEE VIDEO</a>
           </div>
         </div>
-      </div>
-      <div class="row">
+      </div> -->
+      <!-- <div class="row">
         <div class="col flex-grow-0">
           <img src="./images/Rectangle 14.svg" alt="" width="100%" height="auto"
             class="d-inline-block align-text-center align-self-baseline p-0 w-auto">
@@ -107,7 +116,7 @@
             </p>
           </div>
         </div>
-      </div>
+      </div> -->
       <div class="row project-wrapper text-center">
         <h2 class="display-1 fw-bolder">Our project</h2>
       </div>
@@ -121,9 +130,9 @@
         </div>
         <!-- wtf? why they are fat?! -->
       </div>
-      <div class="row cards-wrapper">
+      <!-- <div class="row cards-wrapper"> -->
          <!-- not centered in maket! -->
-        <div class="card-group">
+        <!-- <div class="card-group">
           <div class="card border-0 project-card">
             <img src="./images/Rectangle 15cup.svg" class="card-img-top" width="100%" height="auto" alt="...">
             <div class="card-body">
@@ -148,26 +157,26 @@
                 Watc works beautifully in a wide gamut of arrangements.</p>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
       <div class="row text-center">
         <h2 class="display-1 fw-bolder ">Testimonial</h2>
       </div>
-      <div class="row flex-nowrap text-center">
+      <!-- <div class="row flex-nowrap text-center">
         <figure class="figure m-0 p-0">
           <img src="./images/image4.svg" class="figure-img img-fluid" alt="...">
           <img src="./images/image3.svg" class="figure-img img-fluid" alt="...">
           <img src="./images/image2.svg" class="figure-img img-fluid" alt="...">
           <img src="./images/image5.svg" class="figure-img img-fluid" alt="...">
         </figure>
-      </div>
-      <div class="row numbers-wrapper">
+      </div> -->
+      <!-- <div class="row numbers-wrapper">
         <div class="card border-0">
           <div class="row g-0">
             <div class="col">
-              <img src="./images/Rectangle 18.svg" class="img-fluid" width="615px" height="auto" alt="...">
+              <img src="./images/Rectangle 18.svg" class="img-fluid" width="615px" height="auto" alt="..."> -->
               <!-- add ratio sizes -->
-            </div>
+            <!-- </div>
             <div class="col bg-light">
               <div class="card-body row">
                 <div class="col">
@@ -210,10 +219,10 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
       <div class="row p-0">
-        <div class="col p-0">
-          <div class="ps-0" style="padding-right: 415px">
+        <!-- <div class="col p-0">
+          <div class="ps-0" >
             <div class="row mb-3 ps-0">
               <h2 class="display-1 fw-bolder p-0">Contact Us</h2>
             </div>
@@ -229,8 +238,8 @@
             </div>
           </div>
 
-        </div>
-        <form class="col border border-1 border-dark form">
+        </div> -->
+        <!-- <form class="col border border-1 border-dark form">
           <div class="form-floating">
             <input type="text" class="form-control border-bottom border-0 border-primary p-0 fs-4" id="floatingInput" placeholder=" " style="height: 100px;" required>
             <label class="text-dark fs-5 fw-medium" for="floatingInput">Full name</label>
@@ -249,10 +258,10 @@
           <div class="row">
             <button class="btn btn-primary text-white fs-5 rounded-top rounded-end btn-send" type="submit">Send now</button>
           </div>
-        </form>
+        </form> -->
       </div>
-      </div>
-  </div>
+    </div>
+  <!-- </div> -->
 </body>
 
 </html>
