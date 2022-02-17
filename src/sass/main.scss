@@ -107,7 +107,7 @@ body {
 //   }
 // }
 .navbar-brand img {
-  max-width: 3.5rem;
+  max-width: 3rem;
   @include media-breakpoint-up(sm) {
     max-width: 4rem;
   }
@@ -140,6 +140,12 @@ body {
 
 .letter-spacing {
   letter-spacing: 0.8rem;
+}
+
+.menu-button-wrapper {
+  @include media-breakpoint-up(md) {
+    max-width: 27.1rem;
+  }
 }
 
 .btn-send {
