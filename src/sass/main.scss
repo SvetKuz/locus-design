@@ -116,6 +116,9 @@ body {
 //   }
 // }
 
+.furniture-items{
+  max-width: 83.3rem;
+}
 .nav-content-wrapper {
   // width: 65.5rem;
 }
@@ -142,7 +145,7 @@ body {
   letter-spacing: 0.8rem;
 }
 
-.menu-button-wrapper {
+.button-wrapper {
   @include media-breakpoint-up(md) {
     max-width: 27.1rem;
   }
