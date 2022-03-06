@@ -77,8 +77,9 @@ $utilities: (
   ),
 );
 
-$border-radius: 2rem;
+$border-radius: 1rem;
 $border-radius-sm: 1.5rem;
+$border-radius-lg: 2rem;
 
 @import "~bootstrap/scss/bootstrap";
 
@@ -158,18 +159,57 @@ body {
   }
   font-weight: 500;
 }
+
+.border-radius-teb {
+  border-radius: 20px 20px 20px 0;
+}
 .video-wrapper {
   margin: 7.1rem 0 15rem;
+  height: 100%;
+
 }
 
+.image-video {
+  min-height: 35rem;
+  background-image: url('/src/images/Rectangle\ 10-1.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.video-button {
+  bottom: 2rem;
+  right: 49rem;
+}
+
+.video-href-wrapper::before {
+  content: url(/src/images/video_button.svg);
+  position: absolute;
+bottom: 2.5rem;
+right: 0;
+@include media-breakpoint-up(md) {
+  bottom: 0;
+};
+  @include media-breakpoint-up(xl) {
+    right: 37.5rem;
+    bottom: 1.5rem;
+  };
+}
 .video-text-wrapper {
   width: 549px;
   height: 350px;
 }
 
-.video-text-wrapper .row {
-  margin: 7rem 10.6rem 8.9rem 11.5rem;
+.video-text-wrapper {
+  min-height: 35rem;
+  @include media-breakpoint-up(md) {
+    max-width: 54.9rem;
+  }
 }
+
+// .video-href-wrapper {
+//   padding: 4.1rem 10.6rem 8.9rem 11.5rem;
+// }
 
 .divider {
   width: 13.5rem;
