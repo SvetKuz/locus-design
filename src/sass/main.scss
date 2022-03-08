@@ -181,7 +181,13 @@ body {
   background-image: url('/src/images/Rectangle\ 10-1.svg');
   background-position: center;
   background-repeat: no-repeat;
-
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  @include media-breakpoint-up(md) {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 1rem;
+  }
 }
 
 .video-button {
@@ -211,6 +217,12 @@ right: 0;
   min-height: 35rem;
   @include media-breakpoint-up(md) {
     max-width: 54.9rem;
+  };
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  @include media-breakpoint-up(md) {
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 1rem;
   }
 }
 
@@ -236,9 +248,9 @@ right: 0;
   max-width: 67.4rem;
   margin-bottom: 5rem;
 }
-.inspiration-text-wrapper .btn-send {
-  margin-top: 5rem;
-}
+// .inspiration-text-wrapper .btn-send {
+//   margin-top: 5rem;
+// }
 
 .how-it-works-wrapper {
   margin: 13.6rem 0 2rem;
