@@ -258,12 +258,42 @@ right: 0;
 
 .mission-wrapper {
   max-width: 70.8rem;
-  margin-left: 14.2rem;
+  margin-left: 4.2rem;
+  @media (min-width: 1440px) {
+    margin-left: 14.2rem;
+  };
+}
+
+.image-mission {
+  width: 100%;
+  @include media-breakpoint-up(xxl) {
+    width: auto;
+  }
 }
 
 .mission-wrapper h3 {
   max-width: 48.7rem;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
+  @media (min-width: 1440px) {
+    margin-bottom: 5rem;
+  };
+  @media (min-width: 888px) and (max-width: 1199.98px) {
+    font-size: 3.5rem;
+  };
+  @media (min-width: 768px) and (max-width: 887px) {
+    font-size: 3rem;
+  };
+
+}
+
+.mission-wrapper p {
+  @media (min-width: 888px) and (max-width: 1199.98px) {
+    font-size: 2.5rem;
+  };
+  @media (min-width: 768px) and (max-width: 887px) {
+    font-size: 2rem;
+  };
+
 }
 
 .project-wrapper {
