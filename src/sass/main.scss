@@ -338,10 +338,9 @@ figure :not(:last-child) {
 // .form-floating textarea {
 //   margin-top: ;
 // }
-// .project-card {
-//   width: 45rem;
-//   height: 16.6rem;
-// }
+.project-card {
+  max-width: 45rem;
+}
 
 // .card-img-top, .card-img-bottom {
 
